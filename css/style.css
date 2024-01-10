@@ -185,8 +185,7 @@ textarea {
   
 .home-hero {
   color: #fff;
-  background: radial-gradient( rgba(46, 4, 63, 0.8),rgba(32, 5, 48, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-position: center;
+  background: #000;
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
@@ -232,7 +231,10 @@ textarea {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90rem;
-    width: 92%; }
+    width: 92%; 
+    background: rgb(129,50,219);
+/*background: radial-gradient(circle, rgba(129,50,219,1) 19%, rgba(0,0,0,1) 88%);*/
+  }
     @media only screen and (max-width: 37.5em) {
       .home-hero__content {
         padding: 19rem 0 13rem 0;
@@ -247,7 +249,7 @@ textarea {
     text-align: center; }
 
 .about {
-  background: #fafafa; }
+  background: #000; }
   .about__content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -323,9 +325,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(46, 4, 63, 0.8), rgba(46, 4, 63, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
-  background-position: center; }
+  background: #000;
   .contact__form-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background: white;
@@ -404,9 +404,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(46, 4, 63, 0.8), rgba(46, 4, 63, 0.8)), url(../../assets/svg/common-bg.svg);
-  background-size: cover;
-  background-position: center;
+  background: #000;
   position: relative; }
   @media only screen and (max-width: 37.5em) {
     .project-cs-hero {
@@ -497,8 +495,8 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
   background: #fff;
+  background: #000;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1); }
   .header__content {
     display: flex;
